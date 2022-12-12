@@ -15,7 +15,7 @@ target7M.addEventListener("click", alertThanks);
 
 //食べたい！->画像もどす
 function alertSweetR() {
-  document.getElementById("target7M").src ="picture_man.jpg";
+  document.getElementById("target7M").src ="https://github.com/SusumuSarai/SusumuSarai.github.io/blob/main/day20_html-css-intro/picture_man.jpg?raw=true";
   document.getElementById("target7M").height = 298;
 }
 
