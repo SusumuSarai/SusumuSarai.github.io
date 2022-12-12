@@ -1,4 +1,3 @@
-
 //感謝！
 function alertThanks() {
   window.alert("Thank to all of you, I can make this HP!");
@@ -7,10 +6,9 @@ function alertThanks() {
 const target7M = document.getElementById("target7M");
 target7M.addEventListener("click", alertThanks);
 
-
 //食べたい！->画像変更
 // function alertSweet() {
-//   document.getElementById("target7M").src ="cani0.png"
+//   document.getElementById("target7M").src ="https://github.com/SusumuSarai/SusumuSarai.github.io/blob/main/day20_html-css-intro/cani0.png?raw=true""
 // }
 
 //食べたい！->画像もどす
@@ -29,7 +27,7 @@ let i = 0;
 //食べたい！ ループ
 function alertSweet() {
   if(i<3){
-    document.getElementById("target7M").src ="cani"+i+".png";
+    document.getElementById("target7M").src ="https://github.com/SusumuSarai/SusumuSarai.github.io/blob/main/day20_html-css-intro/cani0"+i+".png?raw=true";
     document.getElementById("target7M").height = 298;
   return i=i+1;
   }
